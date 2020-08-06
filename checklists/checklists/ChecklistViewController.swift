@@ -11,10 +11,13 @@ import UIKit
 class ChecklistViewController: UITableViewController,
 ItemDetailViewControllerDelegate {
   
+  var checklist: Checklist?
   var items = [ChecklistItem]()
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    title = checklist?.name ?? "Name of the checklist"
+    
     loadChecklistItems()
   }
   
@@ -116,7 +119,8 @@ ItemDetailViewControllerDelegate {
   override func tableView(
     _ tableView: UITableView, cellForRowAt indexPath: IndexPath
   ) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "ChecklistItem", for: indexPath)
+    let cell = tableView
+      .dequeueReusableCell(withIdentifier: "ChecklistItem", for: indexPath)
     let item = items[indexPath.row]
     
     configureText(for: cell, with: item)
