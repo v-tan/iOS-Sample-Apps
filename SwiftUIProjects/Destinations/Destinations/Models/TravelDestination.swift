@@ -1,8 +1,8 @@
 //
-//  Hike.swift
-//  Hiking
+//  TravelDestination.swift
+//  Destinations
 //
-//  Created by Varun Tandon on 11/01/21.
+//  Created by Varun Tandon on 14/01/21.
 //
 
 import Foundation
@@ -23,3 +23,4 @@ extension TravelDestination {
     ]
   }
 }
+

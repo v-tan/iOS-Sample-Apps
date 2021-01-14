@@ -1,14 +1,14 @@
 //
-//  HikingTests.swift
-//  HikingTests
+//  DestinationsTests.swift
+//  DestinationsTests
 //
-//  Created by Varun Tandon on 11/01/21.
+//  Created by Varun Tandon on 14/01/21.
 //
 
 import XCTest
-@testable import Hiking
+@testable import Destinations
 
-class HikingTests: XCTestCase {
+class DestinationsTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
