@@ -14,6 +14,7 @@
 		331510CA25B0CD35008E1FCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331510C925B0CD35008E1FCE /* Preview Assets.xcassets */; };
 		331510D825B0CD36008E1FCE /* SwiftUIGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331510D725B0CD36008E1FCE /* SwiftUIGridTests.swift */; };
 		331510E325B0CD36008E1FCE /* SwiftUIGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331510E225B0CD36008E1FCE /* SwiftUIGridUITests.swift */; };
+		33AC7C1425B374DC00591B1E /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AC7C1325B374DC00591B1E /* Array+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		331510DE25B0CD36008E1FCE /* SwiftUIGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		331510E225B0CD36008E1FCE /* SwiftUIGridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGridUITests.swift; sourceTree = "<group>"; };
 		331510E425B0CD36008E1FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AC7C1325B374DC00591B1E /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		331510BF25B0CD30008E1FCE /* SwiftUIGrid */ = {
 			isa = PBXGroup;
 			children = (
+				33AC7C1225B374C700591B1E /* Extensions */,
 				331510C025B0CD30008E1FCE /* AppDelegate.swift */,
 				331510C225B0CD30008E1FCE /* SceneDelegate.swift */,
 				331510C425B0CD30008E1FCE /* ContentView.swift */,
@@ -131,6 +134,14 @@
 				331510E425B0CD36008E1FCE /* Info.plist */,
 			);
 			path = SwiftUIGridUITests;
+			sourceTree = "<group>";
+		};
+		33AC7C1225B374C700591B1E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				33AC7C1325B374DC00591B1E /* Array+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 				331510C125B0CD30008E1FCE /* AppDelegate.swift in Sources */,
 				331510C325B0CD30008E1FCE /* SceneDelegate.swift in Sources */,
 				331510C525B0CD30008E1FCE /* ContentView.swift in Sources */,
+				33AC7C1425B374DC00591B1E /* Array+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
